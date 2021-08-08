@@ -1,0 +1,10 @@
+https://github.com/VamsiChaitanya50/Udacity-CI-CD-AutoDeploy
+
+http://udapeople-raj01.s3-website-us-east-1.amazonaws.com/
+
+
+http://dhz6017x6j2q2.cloudfront.net/
+
+ec2-54-209-59-183.compute-1.amazonaws.com
+
+ec2-3-235-105-120.compute-1.amazonaws.com:9090
