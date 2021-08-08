@@ -249,7 +249,7 @@ jobs:
             then
               return 1
             else
-              return 0
+              return 1
             fi
       - run:
           name: Smoke test on backend
@@ -333,16 +333,6 @@ workflows:
               only: master
       - smoke-test:
           requires: [deploy-frontend]
-          filters:
-            branches:
-              only: master
-      - cloudfront-update:
-          requires: [smoke-test]
-          filters:
-            branches:
-              only: master
-      - cleanup:
-          requires: [cloudfront-update]
           filters:
             branches:
               only: master
