@@ -262,8 +262,8 @@ jobs:
             else
               return 1
             fi
-      - revert-migration
-      - destroy
+      #- revert-migration 
+      #- destroy
 
   cloudfront-update:
     docker:
@@ -336,14 +336,3 @@ workflows:
           filters:
             branches:
               only: master
-      - cloudfront-update:
-          requires: [smoke-test]
-          filters:
-            branches:
-              only: master
-      - cleanup:
-          requires: [cloudfront-update]
-          filters:
-            branches:
-              only: master
-
