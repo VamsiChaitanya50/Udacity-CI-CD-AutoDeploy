@@ -2,13 +2,13 @@ URL01 :- Public Url to GitHub repository
 https://github.com/VamsiChaitanya50/Udacity-CI-CD-AutoDeploy
 
 URL02 :- Public URL for the S3 Bucket
-http://udapeople-raj01.s3-website-us-east-1.amazonaws.com
+http://udapeople-raj01.s3-website-us-east-1.amazonaws.com/
 
 URL03 :- Public URL for the CloudFront distribution
-http://d17wqvhvecxint.cloudfront.net/
+http://d2ahywd9dw6qhr.cloudfront.net/#/employees
 
 URL04 :- Public URLs to deployed application back-end in EC2
-http://ec2-3-239-174-90.compute-1.amazonaws.com:3030/api/Employee
+http://44.195.129.11:3030/api/Employee
 
 URL05 :- Public URL to your Prometheus Server
-http://ec2-3-91-198-21.compute-1.amazonaws.com:9090/
+http://ec2-3-90-46-13.compute-1.amazonaws.com:9090/targets
